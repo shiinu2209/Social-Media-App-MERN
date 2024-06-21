@@ -1,0 +1,13 @@
+# Ignore node_modules directory
+public/node_modules/
+server/node_modules/
+
+# Ignore environment variable files
+public/.env
+public/.env.local
+public/.env.development
+public/.env.production
+server/.env
+server/.env.local
+server/.env.development
+server/.env.production
