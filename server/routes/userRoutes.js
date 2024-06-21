@@ -31,7 +31,7 @@ router.post("/forgotpassword", async (req, res) => {
     user.resetPasswordExpire = resetPasswordExpire;
     await user.save();
 
-    const resetUrl = `http://localhost:5173/reset-password/${token}`;
+    const resetUrl = `https://banao-mern-2.netlify.app/reset-password/${token}`;
 
     const message = `
       You are receiving this email because you (or someone else) has requested the reset of a password.
